@@ -11,3 +11,8 @@ techniques to analyze data. The aim is to develop a heuristic model based on the
 structure of the grape bunches, which can be trained to estimate fruit yield accurately. This 
 method will be tested in both juice grape and wine grape vineyards, which have different 
 structural characteristics.
+
+Project plan video:
+https://youtu.be/OqcnaxRwQts
+<br>
+<img src="https://img.youtube.com/vi/OqcnaxRwQts/maxresdefault.jpg" width = 500>
