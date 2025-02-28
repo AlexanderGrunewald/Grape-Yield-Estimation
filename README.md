@@ -40,11 +40,11 @@ install.packages(c("lidR", "sf", "tidyverse", "ggplot2", "terra"), repos="https:
 
 ### Cloud Compare Installation
 
-// Add gif for later
+![grape_gif](https://github.com/AlexanderGrunewald/Grape-Yield-Estimation/blob/main/src/dataExploration/media/animation3.gif)
 
 Cloud Compare is a free open-source software that enables the visualization and processing of 3D point clouds and meshes. Many different plugins come built-in with the application that allow for complex processing, annotation, and classification of point clouds. The download instructions for the program can be found in the "Download" tab of the following website: https://www.danielgm.net/cc/
 
-[GitHub Link]
+https://github.com/cloudcompare/cloudcompare
 
 #### Cloud Compare Classifier
 
