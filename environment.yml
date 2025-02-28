@@ -1,0 +1,15 @@
+name: grape
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pandas
+  - numpy
+  - laspy
+  - jupyterlab
+  - jupyter
+  - matplotlib
+  - r
+  - r-base
+  - r-essentials
+  - pdal
