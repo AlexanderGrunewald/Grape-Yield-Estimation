@@ -13,3 +13,4 @@ dependencies:
   - r-base
   - r-essentials
   - pdal
+  - opencv
