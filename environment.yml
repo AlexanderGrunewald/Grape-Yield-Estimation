@@ -13,5 +13,5 @@ dependencies:
   - r-base
   - r-essentials
   - pdal
-  - opencv-python
+  - opencv
   - open3d
