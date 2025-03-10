@@ -54,9 +54,9 @@ Cloud Compare also has a classifier plugin called, CANUPO, that utilizes proprie
 
 Custom and external plugins can also be used within Cloud Compare to extend its functions. No custom plugins were used for our project, though if anyone would like to extend the scope of the project with custom/shared plugins, these are the locations that the application will look for those files in:
 
-/Applications/CloudCompare.app/Contents/PlugIns/ccPlugins
-/Users/USER/Library/Application Support/CCCorp/CloudCompare/plugins
-/Library/Application Support/CCCorp/CloudCompare/plugins
+/Applications/CloudCompare.app/Contents/PlugIns/ccPlugins <br>
+/Users/USER/Library/Application Support/CCCorp/CloudCompare/plugins <br>
+/Library/Application Support/CCCorp/CloudCompare/plugins <br>
 /Applications/CloudCompare.app/Contents/Resources/plugins
 
 *Note: These are MacOS-based directories, though CloudCompare is also available for Windows or Linux
