@@ -38,6 +38,14 @@ R
 install.packages(c("lidR", "sf", "tidyverse", "ggplot2", "terra"), repos="https://cloud.r-project.org/")
 ```
 
+#### Python-package installation
+
+If you need to install the Python dependencies separately, you can use pip:
+
+```bash
+pip install laspy opencv-python numpy matplotlib
+```
+
 ### Cloud Compare Installation
 
 ![grape_gif](https://github.com/AlexanderGrunewald/Grape-Yield-Estimation/blob/main/src/dataExploration/media/animation3.gif)
@@ -68,3 +76,28 @@ Custom and external plugins can also be used within Cloud Compare to extend its 
 LidR is an open-source R package for manipulating and visualizing airborne laser scanning (ALS) data with an emphasis on research & development for forestry and ecology applications. We chose this package since it worked naturally with LAS file type data and was used in a previous grape yield estimation study. The notebook contained in src/dataExploration/lidr.ipynb goes through the step-by-step process of how we isolated candidate grape clusters using RGB filtering.
 
 This approach, however, has not been sucessfull and was soon abandoned due to lack of results. We encourage to use this guide as a stepping stone to other more complicated approaches. 
+
+### laspy-cv2-demo.ipynb
+
+1. Navigate to the directory containing laspy-cv2-demo.ipynb:
+
+```bash
+cd src/dataExploration/notebook
+```
+
+2. Launch Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+3. Open laspy-cv2-demo.ipynb in your browser and run the cells sequentially.
+
+The notebook guides you through:
+- Constructing reference color models for grapes and wood.
+- Reading, processing, and filtering image data using OpenCV.
+- Computing Mahalanobis distances for LiDAR points based on the RGB values.
+- Visualizing the distribution of these distances via histograms.
+- Classifying LiDAR points and writing a new LAS file with the updated classification.
+
+Note: The current classification approach uses an arbitrary Mahalanobis distance threshold. Since the distance distributions are unimodal and skewed right, there isn’t a definitive threshold that accurately separates grape points from non-grape points. This method serves as a starting point, and further calibration and validation are needed to improve accuracy for automated yield estimation.
