@@ -45,6 +45,9 @@ If you need to install the Python dependencies separately, you can use pip:
 ```bash
 pip install laspy opencv-python numpy matplotlib
 ```
+### Data Availability
+
+Use the following link to access the data files for lidR, Cloud Compare, and the python tutorial.
 
 ### Cloud Compare Installation
 
