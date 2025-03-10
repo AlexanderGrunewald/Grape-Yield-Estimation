@@ -101,3 +101,29 @@ The notebook guides you through:
 - Classifying LiDAR points and writing a new LAS file with the updated classification.
 
 Note: The current classification approach uses an arbitrary Mahalanobis distance threshold. Since the distance distributions are unimodal and skewed right, there isn’t a definitive threshold that accurately separates grape points from non-grape points. This method serves as a starting point, and further calibration and validation are needed to improve accuracy for automated yield estimation.
+
+### Python_PointCloud_Tutorial.ipynb
+
+1. You can find the file in this folder
+
+```bash
+cd src/dataExploration/notebook
+```
+
+2. Launch Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+3. Run the cells in order, taking time to observe differences in the point cloud visualizations throughout the process of the tutorial, as the next cell will not load until the current visualization has been closed.  
+
+The Python PointCloud Tutorial is meant to be a short introduction on the following for point clouds in python using laspy and open3d:
+  1. Opening
+  2. Loading
+  3. Manipulating
+  4. Visualizing
+  5. Meshing
+  6. Saving
+
+To run this tutorial you must use a .las format file in place of the "CodyKrest9_4_24_riesling_chest1_ref6.las" file used within.  The file that you use must be called in its relative path location.  In the tutorial, the .las file used was in the same directory as the notebook, however, when running this on your local machine you might need to move files or add them to your desired location for access.  After completion of this tutorial one should be comfortable with the exploration of point clouds in python using open3d.
