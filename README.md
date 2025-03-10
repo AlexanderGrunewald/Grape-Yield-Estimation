@@ -94,8 +94,8 @@ jupyter notebook
 3. Open laspy-cv2-demo.ipynb in your browser and run the cells sequentially.
 
 The notebook guides you through:
-- Constructing reference color models for grapes and wood.
-- Reading, processing, and filtering image data using OpenCV.
+- Constructing reference color models for grapes and wood using already existing images.
+- Reading, processing, and filtering the image data using OpenCV.
 - Computing Mahalanobis distances for LiDAR points based on the RGB values.
 - Visualizing the distribution of these distances via histograms.
 - Classifying LiDAR points and writing a new LAS file with the updated classification.
