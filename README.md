@@ -17,6 +17,10 @@ https://youtu.be/OqcnaxRwQts
 <br>
 <img src="https://img.youtube.com/vi/OqcnaxRwQts/maxresdefault.jpg" width = 500>
 
+Minimum viable product video:
+https://youtu.be/1w-sblqkCas
+<br>
+<img src="https://img.youtube.com/vi/1w-sblqkCas/maxresdefault.jpg" width = 500>
 ## Installation Guide
 
 Here are the steps to install the necessary libraries for running the notebooks included in this repository.
