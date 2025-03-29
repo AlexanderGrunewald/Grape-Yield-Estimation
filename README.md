@@ -25,6 +25,13 @@ https://youtu.be/1w-sblqkCas
 
 Here are the steps to install the necessary libraries for running the notebooks included in this repository.
 
+### Data Availability
+
+Use the following link to access the data files for lidR, Cloud Compare, and the python tutorial:
+https://drive.google.com/drive/folders/1VdK9SrW6stM0UnFtDJ6SqJLWcnOwDthf?usp=sharing
+
+Ensure that you save the data file in a directory named `data/` in the root directory of this project.
+
 ### Environment Creation
 To create and enter the new environment, simply execute the following commands in your shell:
 
@@ -49,10 +56,6 @@ If you need to install the Python dependencies separately, you can use pip:
 ```bash
 pip install laspy opencv-python numpy matplotlib
 ```
-### Data Availability
-
-Use the following link to access the data files for lidR, Cloud Compare, and the python tutorial:
-https://drive.google.com/drive/folders/1VdK9SrW6stM0UnFtDJ6SqJLWcnOwDthf?usp=sharing
 
 ### Cloud Compare Installation
 
@@ -83,7 +86,7 @@ Custom and external plugins can also be used within Cloud Compare to extend its 
 
 LidR is an open-source R package for manipulating and visualizing airborne laser scanning (ALS) data with an emphasis on research & development for forestry and ecology applications. We chose this package since it worked naturally with LAS file type data and was used in a previous grape yield estimation study. The notebook contained in src/dataExploration/lidr.ipynb goes through the step-by-step process of how we isolated candidate grape clusters using RGB filtering.
 
-This approach, however, has not been sucessfull and was soon abandoned due to lack of results. We encourage to use this guide as a stepping stone to other more complicated approaches.
+This approach, however, is reliant on the LIDAR data which we are no longer using in favour of the Structure From Motion Data. But this algoritm as outlined could be used in the future once we have higher quality LIDAR data in the fall. We therefore leave it here in the deprecated folder for future reference.
 
 ### laspy-cv2-demo.ipynb
 
@@ -96,7 +99,7 @@ cd src/dataExploration/notebook
 2. Launch Jupyter Notebook
 
 ```bash
-jupyter notebook
+jupyter lab
 ```
 
 3. Open laspy-cv2-demo.ipynb in your browser and run the cells sequentially.
