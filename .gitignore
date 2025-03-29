@@ -177,6 +177,3 @@ cython_debug/
 .hdf5
 .parquet
 .las
-
-# Data Folder
-/data
