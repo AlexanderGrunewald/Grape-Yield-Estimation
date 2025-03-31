@@ -20,7 +20,10 @@ https://youtu.be/OqcnaxRwQts
 Minimum viable product video:
 https://youtu.be/1w-sblqkCas
 <br>
-<img src="https://img.youtube.com/vi/1w-sblqkCas/maxresdefault.jpg" width = 500>
+<img src="https://drive.google.com/uc?export=view&id=1C_ITZqyuuYTYi_bH65sz1Kmu1v-HEXEb" width = 500>
+
+
+
 ## Installation Guide
 
 Here are the steps to install the necessary libraries for running the notebooks included in this repository.
@@ -138,3 +141,11 @@ The Python PointCloud Tutorial is meant to be a short introduction on the follow
   6. Saving
 
 To run this tutorial you must use a .las format file in place of the "CodyKrest9_4_24_riesling_chest1_ref6.las" file used within.  The file that you use must be called in its relative path location.  In the tutorial, the .las file used was in the same directory as the notebook, however, when running this on your local machine you might need to move files or add them to your desired location for access.  After completion of this tutorial one should be comfortable with the exploration of point clouds in python using open3d.
+
+## Reproducibility Instructions
+
+Due to the complexity of CloudCompare's GUI, we decided to make a video that details instructions on how to reproduce all of the figures used within our reports. This includes simple background renders of the .las files, animations of the .las files, clustered renders, and filtered renders.
+
+https://youtu.be/PN9Oql5no1g
+<br>
+<img src="https://img.youtube.com/vi/PN9Oql5no1g/maxresdefault.jpg" width = 500>
