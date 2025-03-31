@@ -146,6 +146,6 @@ To run this tutorial you must use a .las format file in place of the "CodyKrest9
 
 Due to the complexity of CloudCompare's GUI, we decided to make a video that details instructions on how to reproduce all of the figures used within our reports. This includes simple background renders of the .las files, animations of the .las files, clustered renders, and filtered renders.
 
-https://youtu.be/PN9Oql5no1g
+https://youtu.be/-R26BiKjjfM
 <br>
 <img src="https://img.youtube.com/vi/PN9Oql5no1g/maxresdefault.jpg" width = 500>
