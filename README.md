@@ -30,7 +30,7 @@ Here are the steps to install the necessary libraries for running the notebooks 
 Use the following link to access the data files for lidR, Cloud Compare, and the python tutorial:
 https://drive.google.com/drive/folders/1VdK9SrW6stM0UnFtDJ6SqJLWcnOwDthf?usp=sharing
 
-Ensure that you save the data file in a directory named `data/` in the root directory of this project.
+Ensure that you save the data file in the directory named `src/dataExploration/notebook` in this project.  
 
 ### Environment Creation
 To create and enter the new environment, simply execute the following commands in your shell:
