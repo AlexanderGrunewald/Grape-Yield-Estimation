@@ -87,7 +87,7 @@ Custom and external plugins can also be used within Cloud Compare to extend its 
 
 ### LidR
 
-LidR is an open-source R package for manipulating and visualizing airborne laser scanning (ALS) data with an emphasis on research & development for forestry and ecology applications. We chose this package since it worked naturally with LAS file type data and was used in a previous grape yield estimation study. The notebook contained in src/dataExploration/lidr.ipynb goes through the step-by-step process of how we isolated candidate grape clusters using RGB filtering.
+LidR is an open-source R package for manipulating and visualizing airborne laser scanning (ALS) data with an emphasis on research & development for forestry and ecology applications. We chose this package since it worked naturally with LAS file type data and was used in a previous grape yield estimation study. The notebook contained in `depricated/dataExploration/lidr.ipynb` goes through the step-by-step process of how we isolated candidate grape clusters using RGB filtering.
 
 This approach, however, is reliant on the LIDAR data which we are no longer using in favour of the Structure From Motion Data. But this algoritm as outlined could be used in the future once we have higher quality LIDAR data in the fall. We therefore leave it here in the deprecated folder for future reference.
 
