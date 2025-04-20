@@ -22,6 +22,10 @@ https://youtu.be/1w-sblqkCas
 <br>
 <img src="https://drive.google.com/uc?export=view&id=1C_ITZqyuuYTYi_bH65sz1Kmu1v-HEXEb" width = 500>
 
+Final video:
+https://youtu.be/PTQG4g43zTM
+<br>
+<img src="https://img.youtube.com/vi/PTQG4g43zTM/maxresdefault.jpg" width = 500>
 
 
 ## Installation Guide
