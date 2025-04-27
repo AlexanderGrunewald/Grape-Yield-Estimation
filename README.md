@@ -40,7 +40,7 @@ https://drive.google.com/drive/folders/1VdK9SrW6stM0UnFtDJ6SqJLWcnOwDthf?usp=sha
 Ensure that you save the data file in the directory named `src/dataExploration/notebook` in this project.  
 
 ### Cloud Compare Installation 
-#### **skip to reproducibility instructions at end for software demos
+#### **skip to reproducibility instructions for software demo video
 
 ![grape_gif](https://github.com/AlexanderGrunewald/Grape-Yield-Estimation/blob/main/src/dataExploration/media/animation3.gif)
 
@@ -62,6 +62,14 @@ Custom and external plugins can also be used within Cloud Compare to extend its 
 /Applications/CloudCompare.app/Contents/Resources/plugins
 
 *Note: These are MacOS-based directories, though CloudCompare is also available for Windows or Linux
+
+## Reproducibility Instructions
+
+Due to the complexity of CloudCompare's GUI, we decided to make a video that details instructions on how to reproduce all of the figures used within our reports. This includes simple background renders of the .las files, animations of the .las files, clustered renders, and filtered renders.
+
+https://youtu.be/-R26BiKjjfM
+<br>
+<img src="https://img.youtube.com/vi/PN9Oql5no1g/maxresdefault.jpg" width = 500>
 
 <br>
 <br>
@@ -158,10 +166,4 @@ The Python PointCloud Tutorial is meant to be a short introduction on the follow
 
 To run this tutorial you must use a .las format file in place of the "CodyKrest9_4_24_riesling_chest1_ref6.las" file used within.  The file that you use must be called in its relative path location.  In the tutorial, the .las file used was in the same directory as the notebook, however, when running this on your local machine you might need to move files or add them to your desired location for access.  After completion of this tutorial one should be comfortable with the exploration of point clouds in python using open3d.
 
-## Reproducibility Instructions
 
-Due to the complexity of CloudCompare's GUI, we decided to make a video that details instructions on how to reproduce all of the figures used within our reports. This includes simple background renders of the .las files, animations of the .las files, clustered renders, and filtered renders.
-
-https://youtu.be/-R26BiKjjfM
-<br>
-<img src="https://img.youtube.com/vi/PN9Oql5no1g/maxresdefault.jpg" width = 500>
