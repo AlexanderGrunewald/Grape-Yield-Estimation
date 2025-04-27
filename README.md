@@ -8,9 +8,9 @@ for a scalable, real-time solution that can be applied across large vineyards.
 
 The project will explore the use of handheld LIDAR (e.g., GEOSLAM) and structure-from-motion 
 techniques to analyze data. The aim is to develop a heuristic model based on the shape and 
-structure of the grape bunches, which can be trained to estimate fruit yield accurately. This 
-method will be tested in both juice grape and wine grape vineyards, which have different 
-structural characteristics.
+structure of the grape bunches, which can be trained to estimate fruit yield accurately. This method was originally proposed to be tested on both juice and wine grapes, though the majority of the final methods utilized purely wine grapes.
+
+### Video Submissions
 
 Project plan video:
 https://youtu.be/OqcnaxRwQts
@@ -30,14 +30,49 @@ https://youtu.be/PTQG4g43zTM
 
 ## Installation Guide
 
-Here are the steps to install the necessary libraries for running the notebooks included in this repository.
+Here are the steps to install the necessary libraries for running the notebooks included in this repository. The primary method used for final calculations was the CloudCompare-based approaches; therefore, this method's associated instructions will appear first. If you are interested in any of the unsuccessful methods (especially the LiDAR-based techniques), please skip past the CloudCompare section.
 
 ### Data Availability
 
-Use the following link to access the data files for lidR, Cloud Compare, and the python tutorial:
+Use the following link to access the data files for lidR, CloudCompare, and the python tutorial:
 https://drive.google.com/drive/folders/1VdK9SrW6stM0UnFtDJ6SqJLWcnOwDthf?usp=sharing
 
 Ensure that you save the data file in the directory named `src/dataExploration/notebook` in this project.  
+
+### Cloud Compare Installation 
+#### **skip to reproducibility instructions at end for software demos
+
+![grape_gif](https://github.com/AlexanderGrunewald/Grape-Yield-Estimation/blob/main/src/dataExploration/media/animation3.gif)
+
+Cloud Compare is a free open-source software that enables the visualization and processing of 3D point clouds and meshes. Many different plugins come built-in with the application that allow for complex processing, annotation, and classification of point clouds. The download instructions for the program can be found in the "Download" tab of the following website: https://www.danielgm.net/cc/
+
+https://github.com/cloudcompare/cloudcompare
+
+#### Cloud Compare Classifier
+
+Cloud Compare also has a classifier plugin called, CANUPO, that utilizes proprietary ".prm" files. These files contain all parameters that define a specific classifier and can be imported and exported to share classifiers across devices and point cloud files. While this classification feature was not ulitmately used (though was tested) within our project, the ability to share these classifier definition files is important for collaborative work
+
+#### Additional Add-Ons
+
+Custom and external plugins can also be used within Cloud Compare to extend its functions. No custom plugins were used for our project, though if anyone would like to extend the scope of the project with custom/shared plugins, these are the locations that the application will look for those files in:
+
+/Applications/CloudCompare.app/Contents/PlugIns/ccPlugins <br>
+/Users/USER/Library/Application Support/CCCorp/CloudCompare/plugins <br>
+/Library/Application Support/CCCorp/CloudCompare/plugins <br>
+/Applications/CloudCompare.app/Contents/Resources/plugins
+
+*Note: These are MacOS-based directories, though CloudCompare is also available for Windows or Linux
+
+<br>
+<br>
+
+------------------------
+
+-------The following installation instructions are for methods unused in our final report
+
+------------------------
+<br>
+<br>
 
 ### Environment Creation
 To create and enter the new environment, simply execute the following commands in your shell:
@@ -63,29 +98,6 @@ If you need to install the Python dependencies separately, you can use pip:
 ```bash
 pip install laspy opencv-python numpy matplotlib
 ```
-
-### Cloud Compare Installation
-
-![grape_gif](https://github.com/AlexanderGrunewald/Grape-Yield-Estimation/blob/main/src/dataExploration/media/animation3.gif)
-
-Cloud Compare is a free open-source software that enables the visualization and processing of 3D point clouds and meshes. Many different plugins come built-in with the application that allow for complex processing, annotation, and classification of point clouds. The download instructions for the program can be found in the "Download" tab of the following website: https://www.danielgm.net/cc/
-
-https://github.com/cloudcompare/cloudcompare
-
-#### Cloud Compare Classifier
-
-Cloud Compare also has a classifier plugin called, CANUPO, that utilizes proprietary ".prm" files. These files contain all parameters that define a specific classifier and can be imported and exported to share classifiers across devices and point cloud files. While this classification feature was not ulitmately used (though was tested) within our project, the ability to share these classifier definition files is important for collaborative work
-
-#### Additional Add-Ons
-
-Custom and external plugins can also be used within Cloud Compare to extend its functions. No custom plugins were used for our project, though if anyone would like to extend the scope of the project with custom/shared plugins, these are the locations that the application will look for those files in:
-
-/Applications/CloudCompare.app/Contents/PlugIns/ccPlugins <br>
-/Users/USER/Library/Application Support/CCCorp/CloudCompare/plugins <br>
-/Library/Application Support/CCCorp/CloudCompare/plugins <br>
-/Applications/CloudCompare.app/Contents/Resources/plugins
-
-*Note: These are MacOS-based directories, though CloudCompare is also available for Windows or Linux
 
 ## Running the Demos
 
